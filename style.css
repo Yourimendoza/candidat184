@@ -1,0 +1,145 @@
+body{
+	background-color: rgba(64, 200, 130, 0.15);
+}
+.page{
+	width: 150px, 80%;
+	margin: auto;
+	font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
+	font-size: 12px;
+}
+
+.infophoto{
+	height: 250px;
+}
+
+.info{
+	float: right;
+	font-size: 1.3em;
+}
+.photo{
+	float: left;
+}
+
+.sec-gauche{
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.sec-droite{
+	margin-left: 150px;
+	font-size: 12px;
+	text-align: center;
+	text-align: left;
+	font-size: 1.5em;
+	border-bottom: dotted;
+}
+
+.video{
+	float: center;
+	border: 3px purple;
+	border-bottom: dotted;
+}
+
+img{
+	width: 150px;
+	float: left;
+}
+h5{
+	float: left;
+	text-orientation: center;
+}
+
+audio{
+border: 3px purple solid;
+border-radius: 20px / 10px;
+}
+
+h1{
+	text-align: center;
+	color: purple;
+	text-shadow: 4px 4px 4px grey;
+	font-size: 30px;
+	border-bottom: dotted;
+}
+p{
+	font-size: 12px;
+}
+
+header{
+	height: 75px;
+	background-color: white;
+	background-color: : rgb(255, 0, 0, 0, 5);
+	color:#424558 ;
+	border: 9px white solid;
+	font-size: 1.0em;
+	color: purple;
+	text-align: center;
+	
+}
+nav{
+	background-color: grey;
+	background-color: : rgb(255, 0, 0, 0, 5);
+	color: white;
+	width: 100%;
+	margin: 0px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav{
+	background-color: #424558;
+}
+
+nav li:hover a{
+padding: 15px 30px 20px 30px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.menu-face:hover{
+	border-top: 5px solid #4C8;
+	background-color: rgba(64, 200, 130, 0.15);
+}
+.menu-insta:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-link:hover{
+	border-top: 5px solid #0070bb;
+	background-color: rgba(000, 112, 192, 0.15);
+}
+
+.menu-twit:hover{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228, 77, 38, 0.15);
+}
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+	}
+	nav li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	nav li:hover a{
+		padding: 5px 10px 10px 10px;
+	}
